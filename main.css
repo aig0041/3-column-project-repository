@@ -1,0 +1,87 @@
+
+.card {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    overflow: hidden;
+
+    margin: 150px auto;
+    width: fit-content;
+    font-family: Lexend Deca;
+}
+
+.icon1,
+.icon2,
+.icon3,
+.button1,
+.button2,
+.button3,
+.column-title,
+.column-content {
+    margin: 30px;
+}
+
+.column1, 
+.column2,
+.column3 {
+    float: left;
+    min-height: 470px;
+    width: 270px;
+    padding: 20px
+}
+
+.column1, .button1 {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(31, 77%, 52%);
+}
+
+.column2, .button2 {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(184, 100%, 22%);
+}
+
+.column3, .button3 {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(179, 100%, 13%);
+}
+
+.column-title {
+    color: hsl(0, 0%, 95%);
+    font-family: big shoulders display;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.column-content {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    line-height: 1.8 
+}
+
+.button1,
+.button2,
+.button3 {
+    background-color:hsl(0, 0%, 95%);
+    padding: 15px;
+    margin: 20px 0px 0px 0px;
+
+    border-radius: 40px;
+    border: none;
+    text-align: center;
+
+    width: 150px;
+    font-size: 15px;
+    position: relative;
+
+    bottom: -55px;
+    cursor: pointer;
+    font-family: Lexend Deca;
+
+    display: block;
+    transition: all 200ms ease-in-out;
+}
+
+button:hover {
+    background-color: inherit;
+    border: 1px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);   
+}
